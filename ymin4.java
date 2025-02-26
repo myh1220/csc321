@@ -18,6 +18,25 @@ public class ymin4
 		Scanner userinput = new Scanner(System.in);
 		x = userinput.nextInt();
 
-		System.out.println("You chose option " +x+ " as your favorite season.");
+		if (x == 1)
+		{
+			System.out.println("You chose Spring as your favorite season.");
+		}
+		else if (x == 2)
+		{
+			System.out.println("You chose Summer as your favorite season.");
+		}
+		else if (x == 3)
+		{
+			System.out.println("You chose Fall as your favorite season.");
+		}
+		else if (x == 4)
+		{
+			System.out.println("You chose Winter as your favorite season.");
+		}
+		else
+		{
+			System.out.println("Invalid choice. Choose between 1, 2, 3, and 4");
+		}
 	}
 }
